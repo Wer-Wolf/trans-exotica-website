@@ -1,6 +1,7 @@
 <html lang="de">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css">
 		<title>Trans Exotica</title>
 	</head>
@@ -10,10 +11,12 @@
 			<h2>europaweite Zootiertransporte</h2>
 		</header>
 		<nav>
-			<a href="about.html">Über uns</a>
-			<a href="storage.php">Kistenlager</a>
-			<a href="imprint.html#contact">Kontakt</a>
-			<a href="imprint.html" style="float:right">Impressum</a>
+			<ul>
+				<li><a href="about.html">Über uns</a></li>
+				<li><a href="storage.php">Kistenlager</a></li>
+				<li><a href="imprint.html#contact">Kontakt</a></li>
+				<li><a href="imprint.html" style="float:right">Impressum</a></li>
+			</ul>
 		</nav>
 		<div class="content">
 			<section>

@@ -1,0 +1,68 @@
+body {
+	font-family: calibri;
+	margin: 0px;
+	background: white;
+}
+
+header {
+	padding: 25px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: yellow;
+	background: green;
+	background-image: url('pictures/header.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+header h1 {
+	font-size: 60px;
+}
+
+nav {
+	width: 100%;
+	opacity: 0.9;
+	overflow: hidden;
+	background-color: #333;
+	position: sticky;
+	top: 0;
+}
+
+nav:hover {
+	opacity: 1.0;
+}
+
+/* Links inside the navbar */
+nav a {
+	font-size: 20px;
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change background on mouse-over */
+nav a:hover {
+	background: #ddd;
+	color: black;
+}
+
+.content {
+	padding: 20px;
+}
+
+footer {
+	opacity: 0.9;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 3px;
+	text-align: center;
+	background: #333;
+	color: #f2f2f2;
+}

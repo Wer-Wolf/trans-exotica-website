@@ -18,7 +18,7 @@
 				<li style="margin-left: auto"><a href="imprint.html">Impressum</a></li>
 			</ul>
 		</nav>
-		<div class="content">
+		<main>
 			<section>
 				<h1>Kistenlager</h1>
 				<?php
@@ -39,7 +39,7 @@
 
 				?>
 			</section>
-		</div>
+		</main>
 		<footer>
 			Trans-Exotica Uwe Wolf &nbsp&nbsp|&nbsp&nbsp +49 177 381 09 19 &nbsp&nbsp|&nbsp&nbsp info@trans-exotica.de
 		</footer>

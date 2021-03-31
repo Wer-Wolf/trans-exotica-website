@@ -15,7 +15,7 @@
 				<li><a href="about.html">Über uns</a></li>
 				<li><a href="storage.php">Kistenlager</a></li>
 				<li><a href="imprint.html#contact">Kontakt</a></li>
-				<li><a href="imprint.html" style="float:right">Impressum</a></li>
+				<li style="margin-left: auto"><a href="imprint.html">Impressum</a></li>
 			</ul>
 		</nav>
 		<div class="content">

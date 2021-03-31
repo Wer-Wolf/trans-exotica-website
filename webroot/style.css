@@ -1,6 +1,6 @@
 body {
 	font-family: calibri;
-	margin: 0px;
+	margin: 0;
 	background: white;
 }
 
@@ -30,20 +30,23 @@ nav {
 	top: 0;
 }
 
+nav:hover {
+	opacity: 1.0;
+}
+
 nav ul {
+	white-space: nowrap;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
 
-nav:hover {
-	opacity: 1.0;
-}
-
 /* Links inside the navbar */
 nav a {
 	font-size: 20px;
-	float: left;
 	display: block;
 	color: #f2f2f2;
 	text-align: center;

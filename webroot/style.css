@@ -7,7 +7,7 @@ body {
 header {
 	padding: 25px;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: bold;
 	text-align: center;
 	color: yellow;
@@ -17,7 +17,7 @@ header {
 	background-size: cover;
 }
 
-header h1 {
+header b {
 	font-size: 60px;
 }
 

@@ -8,8 +8,8 @@
 	</head>
 	<body>
 		<header>
-			<h1>Trans Exotica</h1>
-			<h2>europaweite Zootiertransporte</h2>
+			<p><b>Trans Exotica</b></p>
+			<p>europaweite Zootiertransporte</p>
 		</header>
 		<nav>
 			<ul>

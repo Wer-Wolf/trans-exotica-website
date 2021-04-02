@@ -2,6 +2,7 @@ body {
 	font-family: calibri;
 	margin: 0;
 	background: white;
+	text-align: center;
 }
 
 header {
@@ -9,7 +10,6 @@ header {
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 30px;
 	font-weight: bold;
-	text-align: center;
 	color: yellow;
 	background-image: url('pictures/header.jpg');
 	background-repeat: no-repeat;
@@ -42,26 +42,70 @@ nav ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	font-size: 20px;
 }
 
-/* Links inside the navbar */
+nav p {
+	font-size: 44px;
+	display: none;
+	color: #f2f2f2;
+	margin: 0;
+}
+
 nav a {
-	font-size: 20px;
 	display: block;
 	color: #f2f2f2;
-	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
-/* Change background on mouse-over */
 nav a:hover {
 	background: #ddd;
 	color: black;
 }
 
+#right {
+	margin-left: auto;
+}
+
+@media (max-width: 443px) {
+	nav ul {
+	  flex-direction: column;
+	}
+
+	nav li {
+		width: 100%;
+	}
+
+	nav p {
+		display: block;
+	}
+
+	nav p {
+		display: block;
+	}
+
+
+	nav a {
+		display: none;
+	}
+
+	nav:hover a {
+		display: block;
+	}
+
+	nav:hover p {
+		background: green;
+	}
+
+	#right {
+		margin-left: 0;
+	}
+}
+
 main {
 	padding: 20px;
+	text-align: left;
 }
 
 footer {

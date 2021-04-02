@@ -74,3 +74,29 @@ footer {
 	background: #333;
 	color: #f2f2f2;
 }
+
+footer ul {
+	white-space: nowrap;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+footer span {
+	display: block;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+footer:hover {
+	opacity: 1.0;
+}
+
+#spam {
+	display: none;
+}

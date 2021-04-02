@@ -68,7 +68,7 @@ nav a:hover {
 	margin-left: auto;
 }
 
-@media (max-width: 443px) {
+@media (max-width: 524px) {
 	nav ul {
 	  flex-direction: column;
 	}

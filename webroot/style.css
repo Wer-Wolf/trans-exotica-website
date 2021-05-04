@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	background: white;
 	text-align: center;
+	width: 100%;
 }
 
 header {
@@ -22,7 +23,6 @@ header b {
 }
 
 nav {
-	width: 100%;
 	opacity: 0.9;
 	overflow: hidden;
 	background-color: #333;

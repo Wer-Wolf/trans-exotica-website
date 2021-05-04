@@ -106,6 +106,8 @@ nav a:hover {
 main {
 	padding: 20px;
 	text-align: left;
+	max-width: 1400px;
+	margin: auto;
 }
 
 footer {

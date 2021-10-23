@@ -1,0 +1,18 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.gallery img {
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#banner {
+    max-width: 100%;
+    height: auto;
+}
